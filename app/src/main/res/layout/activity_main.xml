@@ -6,67 +6,67 @@
     android:layout_height="match_parent"
     tools:context="com.qinshou.passwordedittext.MainActivity">
 
-    <com.qinshou.passwordedittext.PasswordEditText
-        android:id="@+id/password_edit_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:bgInputed="@drawable/bg_inputed"
-        app:bgInputing="@drawable/bg_inputing"
-        app:count="4"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:passwordSize="24"
-        app:showPassword="false">
-
-    </com.qinshou.passwordedittext.PasswordEditText>
-
-    <!--<RelativeLayout-->
-    <!--android:layout_width="0dp"-->
-    <!--android:layout_height="80dp"-->
+    <!--<com.qinshou.passwordedittext.PasswordEditText-->
+    <!--android:id="@+id/password_edit_text"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:bgInputed="@drawable/bg_inputed"-->
+    <!--app:bgInputing="@drawable/bg_inputing"-->
+    <!--app:count="4"-->
     <!--app:layout_constraintLeft_toLeftOf="parent"-->
     <!--app:layout_constraintRight_toRightOf="parent"-->
-    <!--app:layout_constraintTop_toTopOf="parent">-->
+    <!--app:layout_constraintTop_toTopOf="parent"-->
+    <!--app:passwordSize="24"-->
+    <!--app:showPassword="false">-->
 
-    <!--<LinearLayout-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:orientation="horizontal">-->
+    <!--</com.qinshou.passwordedittext.PasswordEditText>-->
 
-    <!--<TextView-->
-    <!--android:layout_width="0dp"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:layout_margin="10dp"-->
-    <!--android:layout_weight="1"-->
-    <!--android:background="@drawable/bg_tv_password" />-->
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <!--<TextView-->
-    <!--android:layout_width="0dp"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:layout_margin="10dp"-->
-    <!--android:layout_weight="1"-->
-    <!--android:background="@drawable/bg_tv_password" />-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
-    <!--<TextView-->
-    <!--android:layout_width="0dp"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:layout_margin="10dp"-->
-    <!--android:layout_weight="1"-->
-    <!--android:background="@drawable/bg_tv_password" />-->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_inputing" />
 
-    <!--<TextView-->
-    <!--android:layout_width="0dp"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:layout_margin="10dp"-->
-    <!--android:layout_weight="1"-->
-    <!--android:background="@drawable/bg_tv_password" />-->
-    <!--</LinearLayout>-->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_inputed" />
 
-    <!--<EditText-->
-    <!--android:id="@+id/et_password"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:background="@null"-->
-    <!--android:cursorVisible="false" />-->
-    <!--</RelativeLayout>-->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_inputed" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_inputed" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:cursorVisible="false" />
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

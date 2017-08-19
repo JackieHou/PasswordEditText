@@ -86,7 +86,6 @@ public class PasswordEditText extends RelativeLayout {
             mEditText.setLayoutParams(textViewParams);
             mEditText.setBackgroundResource(R.drawable.bg_inputed); //设置背景
             mEditText.setGravity(Gravity.CENTER);   //设置文本显示位置
-            Log.i("daolema", "passwordSize---" + passwordSize);
             mEditText.setTextSize(passwordSize);    //设置文本大小
             mEditText.setFocusable(false);  //设置无法获得焦点
             editTexts.add(mEditText);
