@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PasswordEditText">
+        <!-- 密码框数量 -->
+        <attr name="count" format="integer" />
+        <!-- 密码字体大小 -->
+        <attr name="passwordSize" format="integer" />
+        <!-- 是否显示输入的密码 -->
+        <attr name="showPassword" format="boolean" />
+        <!-- 下一个待输入的密码框的背景 -->
+        <attr name="bgInputing" format="reference" />
+        <!-- 已经输入了密码框的背景 -->
+        <attr name="bgInputed" format="reference" />
+    </declare-styleable>
+</resources>
