@@ -12,11 +12,11 @@
         android:layout_height="wrap_content"
         app:bgInputed="@drawable/bg_inputed"
         app:bgInputing="@drawable/bg_inputing"
-        app:count="6"
+        app:count="4"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:passwordSize="15"
+        app:passwordSize="24"
         app:showPassword="false">
 
     </com.qinshou.passwordedittext.PasswordEditText>

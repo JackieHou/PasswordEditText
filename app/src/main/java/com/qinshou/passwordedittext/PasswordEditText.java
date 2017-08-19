@@ -136,9 +136,11 @@ public class PasswordEditText extends RelativeLayout {
                     if (start + 1 < editTexts.size()) {
                         editTexts.get(start + 1).setBackgroundResource(bgInputing);
                     } else {
+                        //输入完成后关闭软键盘
                         InputMethodManager imm = (InputMethodManager) mContext.getSystemService(
                                 Context.INPUT_METHOD_SERVICE);
                         imm.hideSoftInputFromWindow(mEditText.getWindowToken(), 0);
+                        //如果添加了监听器,则回调
                         if (mOnCompletionListener != null) {
                             mOnCompletionListener.onCompletion(s.toString());
                         }
